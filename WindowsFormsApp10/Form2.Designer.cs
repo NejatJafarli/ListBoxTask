@@ -193,6 +193,8 @@ namespace WindowsFormsApp10
             this.Controls.Add(this.label2);
             this.Controls.Add(this.txtName);
             this.Controls.Add(this.label1);
+            this.MaximumSize = new System.Drawing.Size(361, 366);
+            this.MinimumSize = new System.Drawing.Size(361, 366);
             this.Name = "Form2";
             this.Text = "Form2";
             this.ResumeLayout(false);

@@ -118,12 +118,14 @@ namespace WindowsFormsApp10
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(236, 477);
+            this.ClientSize = new System.Drawing.Size(236, 335);
             this.Controls.Add(this.guna2Button3);
             this.Controls.Add(this.guna2Button2);
             this.Controls.Add(this.guna2Button1);
             this.Controls.Add(this.btnAddProduct);
             this.Controls.Add(this.listBox1);
+            this.MaximumSize = new System.Drawing.Size(252, 374);
+            this.MinimumSize = new System.Drawing.Size(252, 374);
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
